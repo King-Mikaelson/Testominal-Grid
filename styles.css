@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* font-size: 13px; */
+    color: #fff 
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #DCD9CD ;
+}
+
+.testmonials{
+    display: grid;
+    grid-gap: 1rem;
+    width: 375px;
+   
+}
+
+.testmonial{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-radius: 8px;
+    padding: 1.3rem;
+
+}
+
+.testmonial.David{
+    background-color: hsl(263, 55%, 52%) ;
+}
+
+.testmonial.Jonathan{
+    background-color: hsl(217, 19%, 35%) ;
+}
+
+.testmonial.Jeanette{
+    background-color: hsl(100, 100%, 100%);
+    color: #000;
+}
+
+.testmonial.Patrick{
+    background-color: hsl(219, 29%, 14%) ;
+}
+
+.testmonial.Kira{
+    background-color: hsl(100, 100%, 100%) ;
+    color: #000;
+}
+
+.testmonial-heading{
+    display: flex;
+    margin-bottom: 1.5rem;
+
+}
+
+.testmonial-head{
+    margin-left: 1.5rem;;
+}
+
+.heading.two{
+    font-size: 0.8rem;
+    font-weight : normal;
+    padding-top: 0.4rem;
+}
+
+img{
+    border-radius: 30px;
+}
+
+
+
+.testimonal-paragraph.one{
+    padding-bottom: 2rem;
+    font-size: 25px;
+}
+
+.testimonal-paragraph.two{
+    font-size: 15px;
+    font-weight : 90;
+    line-height: 1.5rem
+}
